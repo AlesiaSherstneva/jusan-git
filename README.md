@@ -1,12 +1,70 @@
+# stepik-id-printer
+Это проект для вывода моего персонального идентификатора на *образовательной платформе* 
+`stepik.org`.
 
-# Jusan Git Repository
-Данный репозиторий содержит скрипт для вывода моего ID на stepik.org.
+## Возможности
+Данный проект имеет следующий функционал.
+- Выводит в **stdout** уникальный идентификатор.
+- Без зависимостей.
+- Простой.
 
-## Содержание
-- `script.sh` - скрипт для отображения ID профиля на stepik.org
-- `README.md` - описание репозитория
-
-## Использование
-Для запуска скрипта выполните:
+## Запуск
 ```bash
-./script.sh
+bash ./script.sh
+```
+
+## Портирование
+Данный проект можно портировать на другие языки программирования.
+
+На Java
+```java
+class Main {
+    public static void main(String[] args) {
+        System.out.println(188600001);
+    }
+}
+```
+
+На C++
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    cout << 188600001 << endl;
+    return 0;
+}
+```
+
+На Python
+```python
+def hello():
+    print(188600001);
+```
+
+На Go
+```go
+package main
+import "fmt"
+
+func main() {
+    fmt.Println(188600001);
+}
+```
+
+На JavaScript
+```js
+function hello() {
+    console.log(188600001);
+}
+```
+
+## Контакты разработчика
+Ниже найдёте список ссылок для связи с автором.
+
+|Платформа|Ссылка|
+|:--------|:-----|
+|Email|[Написать](mailto:alesiasherstneva@gmail.com)|
+|Telegram|[Написать](https://t.me/Alesia_Sherstneva)|
+|LinkedIn|[Профиль](https://www.linkedin.com/in/alesia-sherstneva/)|
